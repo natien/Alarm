@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AlarmActivity!</string>
+    <string name="app_name">Alarm</string>
+	<string name="time">Time on Meter:</string>
+	<string name="start">Start timer</string>
+	<string name="before">minutes before:</string>
+	<string name="alert">Alert me every</string>
+	<string name="minutes">minutes</string>
+	
+	<string-array name="meterTimeArray">
+	    <item>120</item>
+	    <item>105</item>
+	    <item>90</item>
+	    <item>75</item>
+	    <item>60</item>
+	    <item>45</item>
+	    <item>30</item>
+	    <item>15</item>
+	</string-array>
+	
+	<string-array name="alarmArray">
+	    <item>120</item>
+	    <item>105</item>
+	    <item>90</item>
+	    <item>75</item>
+	    <item>60</item>
+	    <item>45</item>
+	    <item>30</item>
+	    <item>15</item>
+	    <item>10</item>
+	    <item>5</item>
+	</string-array>
+	
+	<string-array name="alertArray">
+	    <item>60</item>
+	    <item>45</item>
+	    <item>30</item>
+	    <item>15</item>
+	    <item>10</item>
+	    <item>5</item>
+	</string-array>
+    
+</resources>

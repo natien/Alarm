@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>	<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/time"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/time"
+            android:layout_marginTop="68dp"
+            android:text="@string/start"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/alarmSpin"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/start"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/alert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/start"
+            android:layout_marginTop="72dp"
+            android:text="@string/alert"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/timerSpin"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/time" />
+
+        <Spinner
+            android:id="@+id/alertSpin"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/alert"
+            android:layout_toRightOf="@+id/alert" />
+        <TextView            android:id="@+id/before"            android:layout_width="wrap_content"            android:layout_height="wrap_content"            android:layout_above="@+id/alert"            android:layout_alignRight="@+id/alertSpin"            android:text="@string/before"            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView            android:id="@+id/minutes"            android:layout_width="wrap_content"            android:layout_height="wrap_content"            android:layout_alignLeft="@+id/before"            android:layout_alignTop="@+id/alertSpin"            android:layout_marginLeft="26dp"            android:text="@string/minutes"            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
